@@ -1,5 +1,5 @@
 // Configuration for your app
-
+/* jshint esversion: 6 */
 module.exports = function (ctx) {
   return {
     // app plugins (/src/plugins)
@@ -49,7 +49,13 @@ module.exports = function (ctx) {
         'QListHeader',
         'QItem',
         'QItemMain',
-        'QItemSide'
+        'QItemSide',
+        'QTabs',
+        'QTab',
+        'QTabPane',
+        'QRouteTab',
+        'QWindowResizeObservable',
+        'QResizeObservable'
       ],
       directives: [
         'Ripple'
@@ -57,8 +63,8 @@ module.exports = function (ctx) {
       // Quasar plugins
       plugins: [
         'Notify'
-      ]
-      // iconSet: ctx.theme.mat ? 'material-icons' : 'ionicons'
+      ],
+      iconSet: ctx.theme.mat ? 'material-icons' : 'ionicons',
       // i18n: 'de' // Quasar language
     },
     // animations: 'all' --- includes all animations
@@ -132,5 +138,5 @@ module.exports = function (ctx) {
         // appId: 'quasar-app'
       }
     }
-  }
-}
+  };
+};

@@ -18,11 +18,11 @@
 
         <q-toolbar-title>
           Quasar App
+
           <div slot="subtitle">Running on Quasar v{{ $q.version }}</div>
         </q-toolbar-title>
       </q-toolbar>
     </q-layout-header>
-
     <q-layout-drawer
       v-model="leftDrawerOpen"
       :content-class="$q.theme === 'mat' ? 'bg-grey-2' : null"
@@ -59,6 +59,8 @@
     <q-page-container>
       <router-view />
     </q-page-container>
+
+
   </q-layout>
 </template>
 

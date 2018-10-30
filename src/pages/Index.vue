@@ -13,6 +13,7 @@
           label="Ruta"
           color="green-5"
           size="lg"
+          to="/ruta"
         />
       </div>
       <div class="col-10">
@@ -21,6 +22,7 @@
           label="Mapa"
           color="secondary"
           size="lg"
+          to="/mapa"
         />
       </div>
     </div>

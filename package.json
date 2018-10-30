@@ -2,7 +2,7 @@
   "name": "app-test",
   "version": "1.0.0",
   "description": "A Quasar Framework app",
-  "productName": "App Test",
+  "productName": "App Maps",
   "cordovaId": "org.cordova.quasar.app",
   "author": "vladimirjv <ivladimirjuarez@outlook.com>",
   "private": true,

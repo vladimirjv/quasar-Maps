@@ -1,3 +1,3 @@
 # Quasar App
 
-> https://spa-mat-sdhszvbxja.now.sh/mapa
+> https://spa-mat-sdhszvbxja.now.sh/
